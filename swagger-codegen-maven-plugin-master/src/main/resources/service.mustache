@@ -1,0 +1,40 @@
+package {{servicePackage}};
+
+import {{apiPackage}}.{{className}}Api;
+{{#importPackageList}}import {{className}};{{/importPackageList}}
+import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.validation.constraints.NotNull;
+
+import javax.servlet.ServletException;
+
+
+
+@Service("{{servicePackage}}.{{className}}Service")
+public class {{className}}Service {
+
+    @Autowired
+    private {{className}}Api delegateApi;
+
+{{#pathGetEntity}}
+    public {{pathGetEntity.responseType}} {{pathGetEntity.methodName}}({{#pathGetEntity.params}}@NotNull  {{paramType}} {{paramName}}{{/pathGetEntity.params}}) throws ServletException {
+        return delegateApi.{{pathGetEntity.methodName}}({{#pathGetEntity.params}}{{paramName}}{{/pathGetEntity.params}});
+    }
+{{/pathGetEntity}}
+{{#pathDeleteEntity}}
+    public void {{pathDeleteEntity.methodName}}({{#pathDeleteEntity.params}}@NotNull {{paramType}} {{paramName}}{{/pathDeleteEntity.params}}) throws ServletException {
+        delegateApi.{{pathDeleteEntity.methodName}}({{#pathDeleteEntity.params}}{{paramName}}{{/pathDeleteEntity.params}});
+    }
+{{/pathDeleteEntity}}
+{{#pathPostEntity}}
+    public void {{pathPostEntity.methodName}}({{#pathPostEntity.params}}{{paramType}} {{paramName}}{{/pathPostEntity.params}}) throws ServletException {
+        delegateApi.{{pathPostEntity.methodName}}({{#pathPostEntity.params}}{{paramName}}{{/pathPostEntity.params}});
+    }
+{{/pathPostEntity}}
+{{#pathPutEntity}}
+    public void {{pathPutEntity.methodName}}({{#pathPutEntity.params}}{{paramType}} {{paramName}}{{/pathPutEntity.params}}) throws ServletException {
+        delegateApi.{{pathPutEntity.methodName}}({{#pathPutEntity.params}}{{paramName}}{{/pathPutEntity.params}});
+    }
+{{/pathPutEntity}}
+}

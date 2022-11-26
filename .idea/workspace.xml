@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8ef7a35-fa17-499d-b50d-58de08d407b3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/MyWork/apache-maven-3.2.2-bin/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="D:\MyWork\apache-maven-3.2.2-bin\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2I4cSRONbelrJZZ8WvwshYQwU3k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/swagger-codegen-maven-plugin-master/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProject\bigdata\wKnowledgeMgmt\swagger-codegen-maven-plugin-master\src\main\resources" />
+      <recent name="E:\MyProject\bigdata\wKnowledgeMgmt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KnowledgeMgmtApplication (1)">
+    <configuration name="KnowledgeMgmtApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="knowledgeMgmt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.home.knowledgemgmt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.home.knowledgemgmt.KnowledgeMgmtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowledgeMgmtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wKnowledgeMgmt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.home.knowledgemgmt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.home.knowledgemgmt.KnowledgeMgmtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.KnowledgeMgmtApplication (1)" />
+        <item itemvalue="Spring Boot.KnowledgeMgmtApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8ef7a35-fa17-499d-b50d-58de08d407b3" name="Changes" comment="" />
+      <created>1669444297182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669444297182</updated>
+      <workItem from="1669444298571" duration="9463000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

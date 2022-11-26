@@ -1,0 +1,41 @@
+package {{controllerPackage}};
+
+import {{servicePackage}}.{{className}}Service;
+{{#importPackageList}}import {{className}};{{/importPackageList}}
+import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.validation.constraints.NotNull;
+
+import javax.servlet.ServletException;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+@Controller
+public class {{className}}Controller {
+
+    @Autowired
+    private {{className}}Service delegateService;
+
+{{#pathGetEntity}}
+    public {{pathGetEntity.responseType}} {{pathGetEntity.methodName}}({{#pathGetEntity.params}}@NotNull  {{paramType}} {{paramName}}{{/pathGetEntity.params}}) throws ServletException {
+    return delegateService.{{pathGetEntity.methodName}}({{#pathGetEntity.params}}{{paramName}}{{/pathGetEntity.params}});
+    }
+{{/pathGetEntity}}
+{{#pathDeleteEntity}}
+    public void {{pathDeleteEntity.methodName}}({{#pathDeleteEntity.params}}@NotNull {{paramType}} {{paramName}}{{/pathDeleteEntity.params}}) throws ServletException {
+    delegateService.{{pathDeleteEntity.methodName}}({{#pathDeleteEntity.params}}{{paramName}}{{/pathDeleteEntity.params}});
+    }
+{{/pathDeleteEntity}}
+{{#pathPostEntity}}
+    public void {{pathPostEntity.methodName}}({{#pathPostEntity.params}}{{paramType}} {{paramName}}{{/pathPostEntity.params}}) throws ServletException {
+    delegateService.{{pathPostEntity.methodName}}({{#pathPostEntity.params}}{{paramName}}{{/pathPostEntity.params}});
+    }
+{{/pathPostEntity}}
+{{#pathPutEntity}}
+    public void {{pathPutEntity.methodName}}({{#pathPutEntity.params}}{{paramType}} {{paramName}}{{/pathPutEntity.params}}) throws ServletException {
+    delegateService.{{pathPutEntity.methodName}}({{#pathPutEntity.params}}{{paramName}}{{/pathPutEntity.params}});
+    }
+{{/pathPutEntity}}
+}

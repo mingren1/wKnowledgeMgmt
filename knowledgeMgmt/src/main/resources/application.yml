@@ -1,0 +1,9 @@
+mybatis:
+  type-aliases-package: com.home.knowledgemgmt.model
+  type-handlers-package: com.home.knowledgemgmt.typehandler
+#  mybatis.config-location: classpath*:sqlMapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 30
+  mapper-locations: classpath*:sqlMapper/*Mapper.xml
