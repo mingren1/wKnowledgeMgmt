@@ -19,23 +19,27 @@ public class {{className}}Controller {
     private {{className}}Service delegateService;
 
 {{#pathGetEntity}}
+    {{#pathGetEntity.urlPath}}@RequestMapping("{{pathGetEntity.urlPath}}"){{/pathGetEntity.urlPath}}
     public {{pathGetEntity.responseType}} {{pathGetEntity.methodName}}({{#pathGetEntity.params}}@NotNull  {{paramType}} {{paramName}}{{/pathGetEntity.params}}) throws ServletException {
-    return delegateService.{{pathGetEntity.methodName}}({{#pathGetEntity.params}}{{paramName}}{{/pathGetEntity.params}});
+        return delegateService.{{pathGetEntity.methodName}}({{#pathGetEntity.params}}{{paramName}}{{/pathGetEntity.params}});
     }
 {{/pathGetEntity}}
 {{#pathDeleteEntity}}
+    {{#pathDeleteEntity.urlPath}}@RequestMapping("{{pathDeleteEntity.urlPath}}"){{/pathDeleteEntity.urlPath}}
     public void {{pathDeleteEntity.methodName}}({{#pathDeleteEntity.params}}@NotNull {{paramType}} {{paramName}}{{/pathDeleteEntity.params}}) throws ServletException {
-    delegateService.{{pathDeleteEntity.methodName}}({{#pathDeleteEntity.params}}{{paramName}}{{/pathDeleteEntity.params}});
+        delegateService.{{pathDeleteEntity.methodName}}({{#pathDeleteEntity.params}}{{paramName}}{{/pathDeleteEntity.params}});
     }
 {{/pathDeleteEntity}}
 {{#pathPostEntity}}
+    {{#pathPostEntity.urlPath}}@RequestMapping("{{pathPostEntity.urlPath}}"){{/pathPostEntity.urlPath}}
     public void {{pathPostEntity.methodName}}({{#pathPostEntity.params}}{{paramType}} {{paramName}}{{/pathPostEntity.params}}) throws ServletException {
-    delegateService.{{pathPostEntity.methodName}}({{#pathPostEntity.params}}{{paramName}}{{/pathPostEntity.params}});
+        delegateService.{{pathPostEntity.methodName}}({{#pathPostEntity.params}}{{paramName}}{{/pathPostEntity.params}});
     }
 {{/pathPostEntity}}
 {{#pathPutEntity}}
+    {{#pathPutEntity.urlPath}}@RequestMapping("{{pathPutEntity.urlPath}}"){{/pathPutEntity.urlPath}}
     public void {{pathPutEntity.methodName}}({{#pathPutEntity.params}}{{paramType}} {{paramName}}{{/pathPutEntity.params}}) throws ServletException {
-    delegateService.{{pathPutEntity.methodName}}({{#pathPutEntity.params}}{{paramName}}{{/pathPutEntity.params}});
+        delegateService.{{pathPutEntity.methodName}}({{#pathPutEntity.params}}{{paramName}}{{/pathPutEntity.params}});
     }
 {{/pathPutEntity}}
 }

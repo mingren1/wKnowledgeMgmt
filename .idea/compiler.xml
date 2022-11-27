@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="codegen-maven-plugin" />
         <module name="knowledgeMgmt" />
+        <module name="knowledgeMgmt-client" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="knowledgeMgmt" options="-parameters" />
+      <module name="knowledgeMgmt-client" options="-parameters" />
       <module name="wKnowledgeMgmt" options="-parameters" />
     </option>
   </component>

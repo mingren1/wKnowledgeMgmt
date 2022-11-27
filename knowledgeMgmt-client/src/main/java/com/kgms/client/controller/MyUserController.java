@@ -10,24 +10,32 @@ import javax.validation.constraints.NotNull;
 import javax.servlet.ServletException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 
-@Controller
+@RestController
+@RequestMapping("/kgms")
 public class MyUserController {
 
     @Autowired
     private MyUserService delegateService;
 
+    @RequestMapping(value = "/user", method = RequestMethod.GET)
     public User getUserById(@NotNull  Integer id) throws ServletException {
-    return delegateService.getUserById(id);
+        return delegateService.getUserById(id);
     }
+    @RequestMapping(value = "/user", method = RequestMethod.DELETE)
     public void deleteUserById(@NotNull Integer id) throws ServletException {
-    delegateService.deleteUserById(id);
+        delegateService.deleteUserById(id);
     }
+
+    @RequestMapping(value = "/user", method = RequestMethod.PUT)
     public void createUser(User user) throws ServletException {
-    delegateService.createUser(user);
+        delegateService.createUser(user);
     }
+    @RequestMapping(value = "/user", method = RequestMethod.POST)
     public void modifyUser(User user) throws ServletException {
-    delegateService.modifyUser(user);
+        delegateService.modifyUser(user);
     }
 }

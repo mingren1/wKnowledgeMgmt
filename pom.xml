@@ -18,6 +18,7 @@
 
     <modules>
         <module>knowledgeMgmt</module>
+        <module>knowledgeMgmt-client</module>
     </modules>
 
     <properties>

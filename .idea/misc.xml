@@ -5,8 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/knowledgeMgmt/pom.xml" />
         <option value="$PROJECT_DIR$/swagger-codegen-maven-plugin-master/pom.xml" />
+        <option value="$PROJECT_DIR$/knowledgeMgmt-client/pom.xml" />
+        <option value="$PROJECT_DIR$/knowledgeMgmt/pom.xml" />
       </list>
     </option>
   </component>
