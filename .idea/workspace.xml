@@ -4,47 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ef7a35-fa17-499d-b50d-58de08d407b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt-client/src/test/java/com/home/knowledgemgmt/KnowledgeMgmtApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/KgmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/common/db/CodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/db/CustomerDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/META-INF.spring/applicationContext-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/profiles/dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/templates/mapper.xml.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e8ef7a35-fa17-499d-b50d-58de08d407b3" name="Changes" comment="web model add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/client/api/MyUserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-client/src/main/java/com/kgms/client/api/MyUserApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/client/controller/MyUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-client/src/main/java/com/kgms/client/controller/MyUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/client/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-client/src/main/java/com/kgms/client/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/client/service/MyUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-client/src/main/java/com/kgms/client/service/MyUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/common/db/GenerateTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/impl/MyUserApiImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/mapper/MyUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/yaml/user.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-client/src/main/resources/yaml/user.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger-codegen-maven-plugin-master/src/main/resources/controller.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-codegen-maven-plugin-master/src/main/resources/controller.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -103,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/knowledgeMgmt/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MyItem/gmall0416" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -211,8 +182,18 @@
       <updated>1669444297182</updated>
       <workItem from="1669444298571" duration="18513000" />
       <workItem from="1669468738574" duration="9612000" />
-      <workItem from="1669516376636" duration="1510000" />
+      <workItem from="1669516376636" duration="3636000" />
+      <workItem from="1669732197383" duration="593000" />
+      <workItem from="1669808645357" duration="312000" />
     </task>
+    <task id="LOCAL-00001" summary="web model add">
+      <created>1669554661438</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669554661438</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +216,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="web model add" />
+    <option name="LAST_COMMIT_MESSAGE" value="web model add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
