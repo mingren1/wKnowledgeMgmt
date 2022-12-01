@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ef7a35-fa17-499d-b50d-58de08d407b3" name="Changes" comment="web model add">
+    <list default="true" id="e8ef7a35-fa17-499d-b50d-58de08d407b3" name="Changes" comment="ui init">
+      <change afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/web/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgeMgmt-client/src/main/java/com/kgms/client/controller/MyUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-client/src/main/java/com/kgms/client/controller/MyUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgeMgmt-ui/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-ui/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgeMgmt-ui/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-ui/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgeMgmt-ui/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-ui/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgeMgmt-ui/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt-ui/src/utils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgeMgmt/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -184,7 +191,8 @@
       <workItem from="1669468738574" duration="9612000" />
       <workItem from="1669516376636" duration="3636000" />
       <workItem from="1669732197383" duration="593000" />
-      <workItem from="1669808645357" duration="312000" />
+      <workItem from="1669808645357" duration="1424000" />
+      <workItem from="1669897857014" duration="4578000" />
     </task>
     <task id="LOCAL-00001" summary="web model add">
       <created>1669554661438</created>
@@ -193,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669554661438</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ui init">
+      <created>1669809045677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669809045678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +234,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="web model add" />
-    <option name="LAST_COMMIT_MESSAGE" value="web model add" />
+    <MESSAGE value="ui init" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -228,6 +244,11 @@
           <url>file://$PROJECT_DIR$/knowledgeMgmt/src/main/java/com/kgms/impl/UserServiceImpl.java</url>
           <line>31</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/knowledgeMgmt-client/src/main/java/com/kgms/client/controller/MyUserController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

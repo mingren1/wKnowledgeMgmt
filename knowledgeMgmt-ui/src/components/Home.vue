@@ -6,6 +6,9 @@
             <h1 @click="queryUserClick">
                 查询user
             </h1>
+
+            <button @click="queryUserClick">查询</button>
+            <h2>{{ id }}</h2>
         </div>
     </div>
 
@@ -16,14 +19,27 @@ export default {
     name: 'Home',
     data() {
         return {
-            msg: 'welcome to knowledge management.'
+            msg: 'welcome to knowledge management.',
+            id: 'default'
         }
     },
     methods: {
 
-        // queryUserClick: function(){
-        //     this.
-        // }
+        queryUserClick: function(){
+            var _this = this;
+            console.log("ddd");
+            this.postRequest("/kgms/user", {"id":1})
+            .then(resp=> {
+                //   _this.loading = false;
+                if (resp && resp.status == 200) {
+                    _this.id = resp.data.id;
+                    // _this.$store.commit('login', data.obj);
+                    // var path = _this.$route.query.redirect;
+                    // _this.$router.replace({path: path == '/' || path == undefined ? '/home' : path});
+                }
+            })
+            console.log("fff");
+        }
     }
 }
 </script>

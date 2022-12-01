@@ -5,10 +5,12 @@ import App from './App'
 import router from './router'
 
 import {postRequest} from './utils/api'
+import {getRequest} from './utils/api'
 
 Vue.config.productionTip = false
 
 Vue.prototype.postRequest = postRequest
+Vue.prototype.getRequest = getRequest
 
 /* eslint-disable no-new */
 new Vue({
