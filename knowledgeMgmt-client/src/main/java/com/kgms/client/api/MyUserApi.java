@@ -4,9 +4,9 @@ import com.kgms.client.model.User;
 import javax.servlet.ServletException;
 
 public interface MyUserApi {
-    User getUserById(Integer id) throws ServletException;
+    User getUserById(Long id) throws ServletException;
 
-    void deleteUserById(Integer id) throws ServletException;
+    void deleteUserById(Long id) throws ServletException;
 
     void createUser(User user) throws ServletException;
 

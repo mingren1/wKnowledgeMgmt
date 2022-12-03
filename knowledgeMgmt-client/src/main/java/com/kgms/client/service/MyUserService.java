@@ -17,10 +17,10 @@ public class MyUserService {
     @Autowired
     private MyUserApi delegateApi;
 
-    public User getUserById(@NotNull  Integer id) throws ServletException {
+    public User getUserById(@NotNull  Long id) throws ServletException {
         return delegateApi.getUserById(id);
     }
-    public void deleteUserById(@NotNull Integer id) throws ServletException {
+    public void deleteUserById(@NotNull Long id) throws ServletException {
         delegateApi.deleteUserById(id);
     }
     public void createUser(User user) throws ServletException {

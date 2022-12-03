@@ -23,7 +23,7 @@ public class MyUserController {
     private MyUserService delegateService;
 
     @RequestMapping(value = "/user", method = RequestMethod.POST)
-    public User getUserById(@NotNull  Integer id) throws ServletException {
+    public User getUserById(@NotNull  Long id) throws ServletException {
         return delegateService.getUserById(id);
     }
     //    @RequestMapping(value = "/user", method = RequestMethod.POST)
@@ -31,11 +31,11 @@ public class MyUserController {
 //        return delegateService.getUserById(id);
 //    }
     @RequestMapping(value = "/user", method = RequestMethod.DELETE)
-    public void deleteUserById(@NotNull Integer id) throws ServletException {
+    public void deleteUserById(@NotNull Long id) throws ServletException {
         delegateService.deleteUserById(id);
     }
 
-    @RequestMapping(value = "/user", method = RequestMethod.PUT)
+    @RequestMapping(value = "/createUser", method = RequestMethod.POST)
     public void createUser(User user) throws ServletException {
         delegateService.createUser(user);
     }

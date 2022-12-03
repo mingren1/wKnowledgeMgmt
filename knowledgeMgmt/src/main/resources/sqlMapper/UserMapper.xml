@@ -5,4 +5,8 @@
     <select id="getUserById" parameterType="java.lang.Integer" resultType="com.kgms.client.model.User">
         SELECT * FROM `user` WHERE ID = #{id}
     </select>
+
+    <insert id="createUser" parameterType="com.kgms.client.model.User">
+        insert into `user`(`id`, `firstName`,`lastName`) values (#{user.id},#{user.firstName},#{user.lastName})
+    </insert>
 </mapper>

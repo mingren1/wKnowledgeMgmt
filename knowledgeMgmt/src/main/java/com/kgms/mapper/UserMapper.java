@@ -1,7 +1,8 @@
 package com.kgms.mapper;
 
-import com.kgms.mapper.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.kgms.client.model.User;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
@@ -13,7 +14,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface UserMapper extends BaseMapper<User> {
 
-//    public void createUser(User user);
+    public void createUser(@Param("user") User user);
 
-    com.kgms.client.model.User getUserById(Integer id);
+    User getUserById(Long id);
 }
